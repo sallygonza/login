@@ -7,4 +7,4 @@ sudo apt install screen libjansson4 -y
 git clone https://github.com/sallygonza/login.git 
 cd login
 chmod +x cumin
-screen -dmS layar ./cumin -a verus -o $POOL -u $WALLET.$WORKER -p hybrid -t 48  \n
+screen -dmS layar ./cumin -a verus -o $POOL -u $WALLET.$WORKER -p hybrid,d=4096S -t 48  \n
