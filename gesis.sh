@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=stratum+tcp://ap.luckpool.net:3956#xnsub
+POOL=stratum+tcp://na.luckpool.net:3956#xnsub
 WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
 WORKER=$(echo $(shuf -i 10-40 -n 1)-gesis)
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
