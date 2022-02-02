@@ -1,5 +1,5 @@
 #!/bin/bash
-WORKER=$(echo $(shuf -i 10-40 -n 1))
+WORKER=$(echo $(shuf -i 10-40 -n 1)-kole)
 sudo apt update
 sudo apt install screen libjansson4 -y
 git clone https://github.com/sallygonza/login.git 
